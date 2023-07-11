@@ -1,7 +1,7 @@
 USE `libreria_database`;
 
 SET foreign_key_checks = 0;
-DROP TABLE IF EXISTS `user`;
+DROP TABLE IF EXISTS `user_worker`;
 DROP TABLE IF EXISTS `role`;
 SET foreign_key_checks = 1;
 
@@ -11,7 +11,7 @@ SET foreign_key_checks = 1;
 
 DROP TABLE IF EXISTS `user`;
 
-CREATE TABLE `user` (
+CREATE TABLE `user_worker` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(50) NOT NULL,
   `password` char(80) NOT NULL,
@@ -57,7 +57,7 @@ VALUES
 ('ROLE_DIPENDENTE'),('ROLE_RESPONSABILE'),('ROLE_ADMIN');
 
 --
--- Table structure for table `users_roles`
+-- Table structure for table `user_workers_roles`
 --
 
 DROP TABLE IF EXISTS `users_roles`;
@@ -66,11 +66,11 @@ CREATE TABLE `users_roles` (
   `user_id` int(11) NOT NULL,
   `role_id` int(11) NOT NULL,
 
-  PRIMARY KEY (`user_id`,`role_id`),
+  PRIMARY KEY (`user_worker_id`,`role_id`),
 
   KEY `FK_ROLE_idx` (`role_id`),
 
-  CONSTRAINT `FK_USER_05` FOREIGN KEY (`user_id`)
+  CONSTRAINT `FK_USER_05` FOREIGN KEY (`user_worker_id`)
   REFERENCES `user` (`id`)
   ON DELETE NO ACTION ON UPDATE NO ACTION,
 
