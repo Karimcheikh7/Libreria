@@ -1,7 +1,7 @@
 package com.karimCheikh.libreria.controller;
 
 import com.karimCheikh.libreria.entity.Libro;
-import com.karimCheikh.libreria.service.LibroServiceImpl;
+import com.karimCheikh.libreria.service.Impl.LibroServiceImpl;
 import com.karimCheikh.libreria.utils.WrapperLibro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

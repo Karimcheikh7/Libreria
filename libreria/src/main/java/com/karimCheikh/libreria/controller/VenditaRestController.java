@@ -1,7 +1,7 @@
 package com.karimCheikh.libreria.controller;
 
 import com.karimCheikh.libreria.entity.Vendita;
-import com.karimCheikh.libreria.service.VenditaServiceImpl;
+import com.karimCheikh.libreria.service.Impl.VenditaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

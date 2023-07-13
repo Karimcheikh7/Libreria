@@ -1,7 +1,7 @@
 package com.karimCheikh.libreria.controller;
 
 import com.karimCheikh.libreria.entity.Editore;
-import com.karimCheikh.libreria.service.EditoreServiceImpl;
+import com.karimCheikh.libreria.service.Impl.EditoreServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,10 +12,9 @@ import java.util.List;
 public class EditoreRestController {
 
     private EditoreServiceImpl editoreServiceImpl;
-
     @Autowired
-    public EditoreRestController(EditoreServiceImpl editoreService){
-        editoreServiceImpl = editoreService;
+    public EditoreRestController(EditoreServiceImpl editoreServiceImpl) {
+        this.editoreServiceImpl = editoreServiceImpl;
     }
 
     @GetMapping("/editori")

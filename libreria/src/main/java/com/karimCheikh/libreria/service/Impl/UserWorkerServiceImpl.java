@@ -1,9 +1,10 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.UserWorker;
 import com.karimCheikh.libreria.entity.UserWorkersRoles;
 import com.karimCheikh.libreria.repository.RoleRepository;
 import com.karimCheikh.libreria.repository.UserWorkerRepository;
+import com.karimCheikh.libreria.service.UserWorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

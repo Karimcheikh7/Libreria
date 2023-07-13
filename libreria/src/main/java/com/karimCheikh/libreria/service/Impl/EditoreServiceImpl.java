@@ -1,7 +1,8 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.Editore;
 import com.karimCheikh.libreria.repository.EditoreRepository;
+import com.karimCheikh.libreria.service.EditoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class EditoreServiceImpl implements EditoreService{
+public class EditoreServiceImpl implements EditoreService {
     @Autowired
     private EditoreRepository editoreRepository;
 

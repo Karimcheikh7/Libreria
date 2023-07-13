@@ -1,7 +1,7 @@
 package com.karimCheikh.libreria.controller;
 ;
 import com.karimCheikh.libreria.entity.User;
-import com.karimCheikh.libreria.service.UserServiceImpl;
+import com.karimCheikh.libreria.service.Impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

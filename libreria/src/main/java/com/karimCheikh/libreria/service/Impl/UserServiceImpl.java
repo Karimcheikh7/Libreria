@@ -1,7 +1,8 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.User;
 import com.karimCheikh.libreria.repository.UserRepository;
+import com.karimCheikh.libreria.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

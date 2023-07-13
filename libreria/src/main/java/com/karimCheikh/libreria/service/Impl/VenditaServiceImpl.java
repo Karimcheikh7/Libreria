@@ -1,9 +1,10 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.Libro;
 import com.karimCheikh.libreria.entity.User;
 import com.karimCheikh.libreria.entity.Vendita;
 import com.karimCheikh.libreria.repository.VenditaRepository;
+import com.karimCheikh.libreria.service.VenditaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

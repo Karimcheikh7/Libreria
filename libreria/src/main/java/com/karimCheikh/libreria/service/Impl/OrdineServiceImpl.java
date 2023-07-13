@@ -1,15 +1,16 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.Libro;
 import com.karimCheikh.libreria.entity.Ordine;
 import com.karimCheikh.libreria.repository.OrdineRepository;
+import com.karimCheikh.libreria.service.OrdineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 @Service
-public class OrdineServiceImpl implements OrdineService{
+public class OrdineServiceImpl implements OrdineService {
 
     @Autowired
     private LibroServiceImpl libroServiceImpl;

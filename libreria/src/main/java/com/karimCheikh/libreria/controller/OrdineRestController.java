@@ -1,7 +1,7 @@
 package com.karimCheikh.libreria.controller;
 
 import com.karimCheikh.libreria.entity.Ordine;
-import com.karimCheikh.libreria.service.OrdineServiceImpl;
+import com.karimCheikh.libreria.service.Impl.OrdineServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

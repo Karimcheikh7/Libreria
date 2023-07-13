@@ -1,9 +1,10 @@
-package com.karimCheikh.libreria.service;
+package com.karimCheikh.libreria.service.Impl;
 
 import com.karimCheikh.libreria.entity.Editore;
 import com.karimCheikh.libreria.entity.Libro;
 import com.karimCheikh.libreria.repository.EditoreRepository;
 import com.karimCheikh.libreria.repository.LibroRepository;
+import com.karimCheikh.libreria.service.LibroService;
 import com.karimCheikh.libreria.utils.WrapperLibro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
